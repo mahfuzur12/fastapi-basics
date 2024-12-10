@@ -1,6 +1,6 @@
 # FastAPI CRUD API
 
-This project is a **basic REST API** built with [FastAPI](https://fastapi.tiangolo.com/). It demonstrates how to implement CRUD (Create, Read, Update, Delete) operations using FastAPI and Pydantic.
+A basic REST API built with [FastAPI](https://fastapi.tiangolo.com/). Implemented basic CRUD (Create, Read, Update, Delete) operations using FastAPI and Pydantic.
 
 ## Project Overview
 The API allows users to manage a list of items, each represented by a simple model. The following operations are supported:
