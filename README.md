@@ -16,7 +16,7 @@ class Item(BaseModel):
     text: str  # Description or content of the item
     isDone: bool = False  # Completion status, defaults to False
 ```
-- `text`: A mandatory string field representing the description of the item.
+- `text`: A required string field representing the description of the item.
 - `isDone`: A boolean field indicating whether the item is completed (default: `False`).
 
 ## Endpoints
