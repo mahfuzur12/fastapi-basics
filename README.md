@@ -125,11 +125,15 @@ Returns the updated list of items.
    ```bash
    pip install fastapi pydantic uvicorn
    ```
+   or
+   ```bash
+   pip install -r requirements.txt
+   ```
 2. Run the application:
    ```bash
    uvicorn main:app --reload
    ```
-3. Access the interactive documentation at:
+3. Access the interactive documentation (or use Postman) at:
    - Swagger UI: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
    - ReDoc: [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
 
